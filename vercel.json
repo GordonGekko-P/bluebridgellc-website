@@ -5,10 +5,11 @@
   "framework": "nextjs",
   "installCommand": "npm install",
   "outputDirectory": ".next",
+  "regions": ["sfo1"],
   "github": {
-    "silent": true
+    "silent": true,
+    "autoAlias": true
   },
-  "ignoreCommand": "if [ -d \"bluebridge-clone\" ]; then echo \"Ignoring build due to presence of bluebridge-clone directory\"; exit 0; else exit 1; fi",
   "headers": [
     {
       "source": "/(.*)",
