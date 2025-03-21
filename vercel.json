@@ -4,9 +4,11 @@
   "devCommand": "npm run dev",
   "framework": "nextjs",
   "installCommand": "npm install",
+  "outputDirectory": ".next",
   "github": {
     "silent": true
   },
+  "ignoreCommand": "if [ -d \"bluebridge-clone\" ]; then echo \"Ignoring build due to presence of bluebridge-clone directory\"; exit 0; else exit 1; fi",
   "headers": [
     {
       "source": "/(.*)",
