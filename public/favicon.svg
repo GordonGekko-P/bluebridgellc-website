@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="128" fill="#000" />
+  <path d="M406 270c0 82.3-67.7 150-150 150S106 352.3 106 270c0-82.3 67.7-150 150-150S406 187.7 406 270z" fill="none" stroke="#0ea5e9" stroke-width="12" />
+  <path d="M256 120v300M106 270h300" stroke="#0ea5e9" stroke-width="12" />
+  <path d="M352 188c-46.4-46.4-121.6-46.4-168 0s-46.4 121.6 0 168 121.6 46.4 168 0" fill="none" stroke="#0866a9" stroke-width="12" />
+  <path d="M162 188c46.4-46.4 121.6-46.4 168 0s46.4 121.6 0 168" fill="none" stroke="#38bdf8" stroke-width="12" />
+  <circle cx="256" cy="270" r="40" fill="#0ea5e9" />
+  <rect x="256" y="90" width="0" height="60" rx="0" fill="#38bdf8">
+    <animate attributeName="width" values="0;30;0" dur="3s" repeatCount="indefinite" />
+    <animate attributeName="x" values="256;241;256" dur="3s" repeatCount="indefinite" />
+    <animate attributeName="rx" values="0;4;0" dur="3s" repeatCount="indefinite" />
+  </rect>
+  <rect x="241" y="370" width="30" height="0" rx="4" fill="#38bdf8">
+    <animate attributeName="height" values="0;60;0" dur="3s" repeatCount="indefinite" />
+    <animate attributeName="y" values="370;340;370" dur="3s" repeatCount="indefinite" />
+    <animate attributeName="rx" values="0;4;0" dur="3s" repeatCount="indefinite" />
+  </rect>
+  <rect x="372" y="255" width="0" height="30" rx="0" fill="#38bdf8">
+    <animate attributeName="width" values="0;60;0" dur="3s" repeatCount="indefinite" />
+    <animate attributeName="x" values="372;342;372" dur="3s" repeatCount="indefinite" />
+    <animate attributeName="rx" values="0;4;0" dur="3s" repeatCount="indefinite" />
+  </rect>
+  <rect x="80" y="255" width="60" height="0" rx="4" fill="#38bdf8">
+    <animate attributeName="height" values="0;30;0" dur="3s" repeatCount="indefinite" />
+    <animate attributeName="y" values="255;240;255" dur="3s" repeatCount="indefinite" />
+    <animate attributeName="rx" values="0;4;0" dur="3s" repeatCount="indefinite" />
+  </rect>
+</svg> 

@@ -1,0 +1,61 @@
+@layer components {
+  /* Glowing effects */
+  .glow-effect {
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 10px rgba(56, 189, 248, 0.2);
+  }
+  
+  .glow-effect:hover {
+    box-shadow: 0 0 15px rgba(56, 189, 248, 0.4), 0 0 30px rgba(56, 189, 248, 0.2);
+    border-color: rgba(56, 189, 248, 0.5);
+  }
+  
+  .glow-effect::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(
+      90deg,
+      transparent,
+      rgba(56, 189, 248, 0.1),
+      transparent
+    );
+    transition: all 0.5s;
+    pointer-events: none;
+  }
+  
+  .glow-effect:hover::before {
+    left: 100%;
+  }
+  
+  .glow-box {
+    box-shadow: 0 0 15px rgba(8, 145, 178, 0.15);
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .glow-box:hover {
+    box-shadow: 0 0 20px rgba(8, 145, 178, 0.25), 0 0 40px rgba(8, 145, 178, 0.1);
+  }
+  
+  .glow-text {
+    text-shadow: 0 0 8px rgba(56, 189, 248, 0.3);
+  }
+  
+  /* Titanium styling */
+  .titanium-gradient {
+    background: linear-gradient(135deg, #2d3748, #4a5568, #718096);
+    background-size: 400% 400%;
+    animation: titanium-shift 15s ease infinite;
+  }
+  
+  @keyframes titanium-shift {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+} 

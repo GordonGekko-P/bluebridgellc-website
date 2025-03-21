@@ -1,0 +1,10 @@
+export { default as AppleIcon } from './AppleIcon';
+export { default as LinkedInIcon } from './LinkedInIcon';
+export { default as GithubIcon } from './GithubIcon';
+export { default as IBMIcon } from './IBMIcon';
+export { default as SalesforceIcon } from './SalesforceIcon';
+export { default as GoogleIcon } from './GoogleIcon';
+export { default as BainIcon } from './BainIcon';
+export { default as EnpalIcon } from './EnpalIcon';
+export { default as JPMorganIcon } from './JPMorganIcon';
+export { default as GlobantIcon } from './GlobantIcon'; 
